@@ -1,0 +1,28 @@
+ 
+ html {
+ 	scroll-behavior: smooth;
+ }
+
+ body {
+	background-color: #130f40 !important;
+	color: white;
+ }
+
+ table > thead > tr > th, caption {
+	color: white !important;
+ }
+
+
+.wrapper {
+	margin-top: 40px !important;
+	margin-bottom: 40px !important;
+	min-height: 2000px;
+}
+
+.next {
+}
+
+.next:hover {
+	transform: translate(0, 8px) ;
+/*	transform: matrix(0.866,0.7,-0.8,0.866,0,0);*/
+}
