@@ -1,4 +1,4 @@
-const TOKEN = '297c083672af6147308b87ac5bd57b383dfb8617b75cad8342184ee003ca917c'
+const TOKEN = '297c083672a'
 
 // Get first two indexses
 function $$$(cls) {
@@ -911,15 +911,3 @@ function capture () {
         a.click(); // MAY NOT ALWAYS WORK!
     });
 }
-
-
-// data = JSON.parse(
-//     localStorage.getItem('297c083672af6147308b87ac5bd57b383dfb8617b75cad8342184ee003ca917c')
-// )
-
-// teams = data['teams']
-
-// netherlands = teams['netherlands']
-
-
-// console.log(netherlands);
