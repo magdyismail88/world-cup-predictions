@@ -166,9 +166,9 @@ const TEAMS = {
 
 window.addEventListener("DOMContentLoaded", () => {
 
-    if(localStorage.getItem('297c083672af6147308b87ac5bd57b383dfb8617b75cad8342184ee003ca917c') == null) {
+    if(localStorage.getItem('297c083672a') == null) {
         localStorage.setItem(
-            '297c083672af6147308b87ac5bd57b383dfb8617b75cad8342184ee003ca917c', JSON.stringify(TEAMS)
+            '297c083672a', JSON.stringify(TEAMS)
         );
     }
 
